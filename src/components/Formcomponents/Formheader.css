@@ -1,0 +1,43 @@
+.Formheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    
+    width: 501px;
+    height: 30px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    width: 501px;
+    height: 30px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125.3%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #3C4852;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+

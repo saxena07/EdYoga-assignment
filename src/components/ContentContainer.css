@@ -1,0 +1,15 @@
+.ContentContainer{
+    width: 1920px;
+    height: 1008px;
+    
+    background: #172746;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;    
+    position: absolute;
+    top: 72px;
+}
+ 

@@ -1,0 +1,102 @@
+.Mainlockup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    
+    position: absolute;
+    width: 799px;
+    height: 708px;
+    left: 144px;
+    top: 72px;    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    
+    width: 799px;
+    height: 148px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.frame12502{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    
+    width: 799px;
+    height: 70px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.frame12502{
+    width: 799px;
+    height: 70px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 125%;
+    /* identical to box height, or 70px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.frame12408{
+    width: 799px;
+    height: 70px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 125%;
+    /* identical to box height, or 80px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
